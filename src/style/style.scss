@@ -1,0 +1,49 @@
+/* Sections Générales */
+.main,
+section,
+.prez_wrapper,
+.prez_container,
+.prez_insideDiv,
+.button_contact_div,
+.navbar,
+.div_navbar,
+ul,
+#service_Wrapper,
+.service_container,
+.logosDiv,
+.testClass,
+.card_wrapper,
+.card_container,
+.card_visible,
+.card_hidden,
+.card_hidden_list,
+.aboutMe_container,
+.projects_container,
+.project_pics {
+  display: flex;
+}
+
+.aboutMe_container,
+.service_container,
+.projects_container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1170px;
+  width: 100%;
+}
+
+.main {
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Section */
+section {
+  padding: 50px 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+  @media all and (min-width: 570px) {
+    padding: 100px 0px;
+  }
+}
