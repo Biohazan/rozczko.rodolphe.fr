@@ -21,11 +21,11 @@ function Projects() {
   return (
     <ProjectsWrapper>
       <div className="projects_container">
-        <h1>Mes Projets</h1>
+        <h3 id='projects_title'>Mes Projets</h3>
         <div className="project_div">
           <div className="project_pics">
-            <img src={leMelezePic1} alt="" />
-            <img src={leMelezePic2} alt="" />
+            <img loading="lazy" src={leMelezePic1} alt="" />
+            <img loading="lazy" src={leMelezePic2} alt="" />
           </div>
         </div>
       </div>
